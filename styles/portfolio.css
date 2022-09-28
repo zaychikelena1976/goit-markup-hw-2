@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5#E5E5E5;
+    width: 1600px;
+}
+
+/*Верхня лінія*/
+
+.linki li{display: inline-block;}
+.logo{
+    color: #2196F3e; text-decoration:none; font-weight: bold; font-size: 26px;
+ }
+.logo1{
+    color: #000000; text-decoration:none; font-weight: bold;
+ }
+.logo3{
+    font-size: 14px;
+ }
+
+/*портфолiо*/
+.hero{width: 1170px;
+    height: 1360px;
+    
+    top: 174px;
+   }
+.title{
+    opacity: 0;
+}
+.knopki li {display: inline-block;}
+.filtri{
+   font-size: 16px;
+   color: black;
+   background: grey;
+}
+.filtri:hover{
+    background-color: gray;
+}
+.filtri:active{
+    background-color: orange;}
+/* портфолiо*/
+.spisok li {display: inline-block;}
+.spisok{margin-left: 115px;
+    margin-right: 115px;}
+
+
+.element{
+    font-size: 18px;
+    color:     #212121;
+    font-weight: bold;
+}
+.subelement{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+
+
+/* Підвал сторінки */
+.pidval{background-color: #2F303A;
+    position: absolute;
+   width: 1600px;
+   height: 252px;
+    left: 20px;
+    top: 1628px; 
+ }
+ .adres{
+ font-size: 14px; 
+ font-weight: 400;
+ margin-top: 60px ;
+ left: 215;
+
+}

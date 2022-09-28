@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/*Верхня лінія*/
+.linki li{display: inline-block;}
+.verhbox{width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;}
+.logo{
+    color: #2196F3; text-decoration:none; font-weight: bold; font-size: 26px;
+}
+.logo1{
+    color: #000000; text-decoration:none; font-weight: bold;
+}
+.logo3{
+    font-size: 14px;
+}
+
+/*Main*/
+.boxmain{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    background: #2F303A;
+    text-align: center;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;    
+    }
+.main{font-size: 44px;
+    color: white;
+     top: 200px;
+     }
+.button{
+    font-size: 16px ;
+    color: white;
+    background-color: blue;
+}
+/* .nevidimo{
+    opacity: 0;
+} */
+.nameosobennosti{
+    width: 270px;
+height: 16px;
+left: 215px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+}
+
+.stuff{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212121;
+font-weight: bold;
+}
+.profession{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.osob{position: absolute;
+    width: 1170px;
+    height: 98px;
+    left: 215px;
+    /* margin-top: 14px; */
+}
+
+.subosobennosti li{display: inline-block;}
+.boxnameosobennosti1{width: 270px;
+    height: 98px;
+    left: 215px;
+    }
+.boxnameosobennosti2{width: 270px;
+    height: 74px;
+    left: 515px;
+    }
+.boxnameosobennosti3{
+    width: 270px;
+    height: 74px;
+    left: 815px;
+    
+    }
+.boxnameosobennosti4{
+    width: 270px;
+    height: 98px;
+    left: 1115px;
+    
+    }
+.zaniat{position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 1046px;
+    text-align: center;
+    }
+.nevidimo{opacity: 0;}
+.zaniatia li {display: inline-block;}
+.stuf{position: absolute;
+    width: 1600px;
+    height: 648px;
+    top: 1446px;
+    text-align: center;
+    }
+.stuff li {display: inline-block;}
+
+/* Підвал сторінки */
+.pidval{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    margin-top: 1194px;
+    }
+.adres{
+ font-size: 14px; 
+ font-weight: 400;
+ margin-top: 60px ;
+ left: 215;
+}
