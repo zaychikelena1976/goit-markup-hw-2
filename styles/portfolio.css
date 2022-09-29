@@ -1,72 +1,77 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5#E5E5E5;
+    background-color: white;
     width: 1600px;
 }
 
 /*Верхня лінія*/
 
 .linki li{display: inline-block;}
+.linki .logo3{color:#000000}
+.linki:hover .logo3{color:#2196F3;text-decoration:none;}
 .logo{
-    color: #2196F3e; text-decoration:none; font-weight: bold; font-size: 26px;
- }
+    color: #2196F3; text-decoration:none;
+     font-weight: bold; font-size: 26px;font-family:"Raleway";}
+
 .logo1{
     color: #000000; text-decoration:none; font-weight: bold;
- }
+    font-family: 'Raleway';
+     font-style: normal;
+}
 .logo3{
-    font-size: 14px;
- }
+    font-size: 14px; text-decoration: none;
+}
+
 
 /*портфолiо*/
-.hero{width: 1170px;
-    height: 1360px;
-    
-    top: 174px;
-   }
-.title{
-    opacity: 0;
-}
+.knopki{Width: 575px; Height: 54px; Top: 174px; margin-left: 512px; }
+.title{ opacity: 0;}
 .knopki li {display: inline-block;}
-.filtri{
-   font-size: 16px;
-   color: black;
-   background: grey;
-}
-.filtri:hover{
-    background-color: gray;
-}
-.filtri:active{
-    background-color: orange;}
-/* портфолiо*/
-.spisok li {display: inline-block;}
-.spisok{margin-left: 115px;
-    margin-right: 115px;}
+.filtri{ background-color:hsl(210, 17%, 95%)}
+.filtri1{background-color:#2196F3}
+.filtri:hover{ background-color: gray;}
+.filtri:active{background-color: white;}
 
+.spisok li {display: inline-block;}
+.project1{Width: 370px; Height: 404px;Top: 262px; }
+.project2{Width: 370px; Height: 404px;Top: 262px; left: 400px;}
+.project3{Width: 370px; Height: 404px;Top: 262px; Left: 800px;}
+.project4{Width: 370px; Height: 404px;Top: 262px; Left: 215px;}
+.project5{Width: 370px; Height: 404px;Top: 262px; Left: 615px;}
+.project6{Width: 370px; Height: 404px;Top: 262px; Left: 1015px;}
+.project7{Width: 370px; Height: 404px;Top: 262px; Left: 215px;}
+.project8{Width: 370px; Height: 404px;Top: 262px; Left: 615px;}
+.project9{Width: 370px; Height: 404px;Top: 262px; Left: 1015px;}
+.spisok{width: 1170px; height: 1360px; margin-left: 215px; top: 174px;}
 
 .element{
     font-size: 18px;
     color:     #212121;
     font-weight: bold;
+    line-height: 36px;
 }
 .subelement{
     font-size: 16px;
     color: #757575;
     font-weight: 400;
+    line-height: 30px;
 }
 
 
 /* Підвал сторінки */
-.pidval{background-color: #2F303A;
-    position: absolute;
-   width: 1600px;
-   height: 252px;
-    left: 20px;
-    top: 1628px; 
- }
- .adres{
+.footer{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    
+    }
+.address{
  font-size: 14px; 
  font-weight: 400;
  margin-top: 60px ;
- left: 215;
-
+ left: 215; list-style: none;
 }
+.logo4 {color:white}
+.item{list-style: none; text-decoration: none;color: white;}

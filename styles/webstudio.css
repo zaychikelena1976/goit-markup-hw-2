@@ -1,48 +1,63 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
+.body{
+    font-family: 'Roboto', sans-serif; 
+    background-color:#FFFFFF;
 }
 
 /*Верхня лінія*/
-.linki li{display: inline-block;}
+
+.linki li{display: inline-block; }
+     
+.linki:hover .logo3{color:#2196F3;text-decoration:none;}
+
+
 .verhbox{width: 1600px;
     height: 80px;
     left: 0px;
     top: 0px;}
 .logo{
-    color: #2196F3; text-decoration:none; font-weight: bold; font-size: 26px;
-}
+    color: #2196F3; text-decoration:none;
+     font-weight: bold; font-size: 26px;font-family:"Raleway";}
+
 .logo1{
     color: #000000; text-decoration:none; font-weight: bold;
+    font-family: 'Raleway';
+     font-style: normal;
 }
 .logo3{
-    font-size: 14px;
+    font-size: 14px; text-decoration: none; color: black;
 }
 
 /*Main*/
 .boxmain{
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    background: #2F303A;
-    text-align: center;
-    min-height: 10em;
+    width: 1600px; height: 600px;
+    left: 0px; background: #2F303A;
+    text-align: center;  min-height: 10em;
     display: table-cell;
-    vertical-align: middle;    
+    vertical-align: middle; 
     }
 .main{font-size: 44px;
     color: white;
-     top: 200px;
+     top: 200px; text-transform: uppercase;
      }
 .button{
     font-size: 16px ;
     color: white;
-    background-color: blue;
+    background-color:#2196F3; border: none;
+    cursor: pointer; border-radius: 4px;
 }
-/* .nevidimo{
-    opacity: 0;
-} */
-.nameosobennosti{
+.button:hover{ background-color: gray;}
+.button:active{background-color: white;}
+.visually-hidden{position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+.nameproperties{
     width: 270px;
 height: 16px;
 left: 215px;
@@ -63,62 +78,81 @@ font-weight: bold;
 font-size: 16px;
 line-height: 19px;
 }
-.osob{position: absolute;
+.properties{position: absolute;
     width: 1170px;
     height: 98px;
     left: 215px;
     /* margin-top: 14px; */
 }
 
-.subosobennosti li{display: inline-block;}
-.boxnameosobennosti1{width: 270px;
+.subproperties li{display: inline-block;}
+.boxnameproperties1{width: 270px;
     height: 98px;
     left: 215px;
     }
-.boxnameosobennosti2{width: 270px;
+.boxnameproperties2{width: 270px;
     height: 74px;
     left: 515px;
     }
-.boxnameosobennosti3{
+.boxnameproperties3{
     width: 270px;
     height: 74px;
     left: 815px;
     
     }
-.boxnameosobennosti4{
+.boxnameproperties4{
     width: 270px;
     height: 98px;
-    left: 1115px;
-    
+    left: 1115px;    
     }
-.zaniat{position: absolute;
+.nameproperties{font-weight: 700;    font-size: 14px; line-height: normal;}
+.text{font-weight: 400; font-size: 14px; line-height: 24px; color: #757575
+    5;}
+.work{position: absolute;
     width: 1170px;
     height: 386px;
     left: 215px;
     top: 1046px;
     text-align: center;
     }
-.nevidimo{opacity: 0;}
-.zaniatia li {display: inline-block;}
+
+.work li {display: inline-block;}
+.work{width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 966px;}
+.name2{Size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;}
 .stuf{position: absolute;
     width: 1600px;
     height: 648px;
     top: 1446px;
-    text-align: center;
+    left: 0px;
+    background-color: #F5F4FA;
     }
+.stuf{position: absolute;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1446px;}
+
 .stuff li {display: inline-block;}
 
 /* Підвал сторінки */
-.pidval{
+.footer{
     background-color: #2F303A;
     width: 1600px;
     height: 252px;
     left: 0px;
     margin-top: 1194px;
     }
-.adres{
+.address{
  font-size: 14px; 
  font-weight: 400;
  margin-top: 60px ;
- left: 215;
+ left: 215; list-style: none;
 }
+.logo4 {color:white}
+.item{list-style: none; text-decoration: none;color: white;}
