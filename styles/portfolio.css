@@ -1,38 +1,75 @@
+:root{
+    --main-text-color:#212121;
+    --secondary-text-color:#757575;
+    --main-white-color:#fff;
+    --highlight-color:#2196f3;
+    --secondary-white-color:#f5f4f5;
+    --fill-color:#2f303a;
+    --button-active-color:#124e86;
+    --card-border-color:#eee;
+}
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    width: 1600px;
+    font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        background-color: var(--primary-white-color);
+       
 }
 
 /*Верхня лінія*/
 
 .linki li{display: inline-block;}
-.linki .logo3{color:#000000}
-.linki:hover .logo3{color:#2196F3;text-decoration:none;}
+.linki .logo3{color:var(--main-text-color);}
+
 .logo{
-    color: #2196F3; text-decoration:none;
+    color: var(--highlight-color); text-decoration:none;
      font-weight: bold; font-size: 26px;font-family:"Raleway";}
 
 .logo1{
-    color: #000000; text-decoration:none; font-weight: bold;
+    color: var(--main-text-color); text-decoration:none; font-weight: bold;
     font-family: 'Raleway';
      font-style: normal;
 }
 .logo3{
-    font-size: 14px; text-decoration: none;
+    font-size: 14px; text-decoration: none; var(--main-text-color);
 }
+.logo9{font-size: 14px; text-decoration: none;color: var(--main-text-color);}
+
+.logo3:hover {color:var(--button-active-color);text-decoration:none;}
+.logo9:hover{color:var(--button-active-color);text-decoration:none;}
+.linki{font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14}
 
 
 /*портфолiо*/
-.knopki{Width: 575px; Height: 54px; Top: 174px; margin-left: 512px; }
-.title{ opacity: 0;}
-.knopki li {display: inline-block;}
-.filtri{ background-color:hsl(210, 17%, 95%)}
-.filtri1{background-color:#2196F3}
-.filtri:hover{ background-color: gray;}
-.filtri:active{background-color: white;}
+
+.visually-hidden{position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+.hero{width: 1600px;    height: 80px;}   
+.hero li {display: inline-block;}
+
+button{ background-color:var(--secondary-text-color); left: 512px;font-family: inherit;font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;cursor: pointer;}
+
+button:hover{ background-color:var(--highlight-color);} 
+button:focus{background-color:var(--highlight-color);}
 
 .spisok li {display: inline-block;}
+.spisok{width: 1170px !important;
+    height: 1360px !important;
+    margin-left: 215px !important;
+    margin-top:174px !important;}
 .project1{Width: 370px; Height: 404px;Top: 262px; }
 .project2{Width: 370px; Height: 404px;Top: 262px; left: 400px;}
 .project3{Width: 370px; Height: 404px;Top: 262px; Left: 800px;}
@@ -43,35 +80,36 @@ body{
 .project8{Width: 370px; Height: 404px;Top: 262px; Left: 615px;}
 .project9{Width: 370px; Height: 404px;Top: 262px; Left: 1015px;}
 .spisok{width: 1170px; height: 1360px; margin-left: 215px; top: 174px;}
-
+.text{font-weight: 400; font-size: 14px;  line-height: 1.71;}
 .element{
     font-size: 18px;
-    color:     #212121;
+    color: var(--main-text-color);
     font-weight: bold;
     line-height: 36px;
 }
 .subelement{
     font-size: 16px;
-    color: #757575;
+    color:var(--secondary-text-color);
     font-weight: 400;
     line-height: 30px;
 }
 
 
-/* Підвал сторінки */
+
 .footer{
-    background-color: #2F303A;
+    background-color: var(--main-text-color);
     width: 1600px;
     height: 252px;
     left: 0px;
-    top: 1628px;
-    
+    margin-top: 1628px;
     }
-.address{
+address{ font-style: normal;
  font-size: 14px; 
- font-weight: 400;
- margin-top: 60px ;
- left: 215; list-style: none;
+  margin-top: 60px;
+ left: 215px; list-style: none;
 }
-.logo4 {color:white}
-.item{list-style: none; text-decoration: none;color: white;}
+.ind{list-style: none;}
+.logo4 {color:var(--main-white-color)}
+.item{ text-decoration: none; color: var(--main-white-color);}
+.item:hover {color:var(--highlight-color);}
+.item1{color:var(--main-white-color); opacity: 0.6;text-decoration: none;}
