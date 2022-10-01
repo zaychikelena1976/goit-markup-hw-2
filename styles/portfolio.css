@@ -36,8 +36,8 @@ body{
 }
 .logo9{font-size: 14px; text-decoration: none;color: var(--main-text-color);}
 
-.logo3:hover {color:var(--button-active-color);text-decoration:none;}
-.logo9:hover{color:var(--button-active-color);text-decoration:none;}
+.logo3:hover {color:var(--highlight-color);text-decoration:none;}
+.logo9:hover{color:var(--highlight-color);text-decoration:none;}
 .linki{font-weight: 500;
     font-size: 14px;
     line-height: 1.14}
@@ -58,19 +58,19 @@ body{
 .hero{width: 1600px;    height: 80px;}   
 .hero li {display: inline-block;}
 
-button{ background-color:var(--secondary-text-color); left: 512px;font-family: inherit;font-weight: 500;
+button{ background-color:var(--secondary-white-color); left: 512px;font-family: inherit;font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;cursor: pointer;}
+    line-height: 1.63;cursor: pointer;border: none;}
 
-button:hover{ background-color:var(--highlight-color);} 
-button:focus{background-color:var(--highlight-color);}
+button:hover{ background-color:var(--highlight-color);color: var(--main-white-color);} 
+button:focus{background-color:var(--highlight-color);color:var(--main-white-color);}
 
 .spisok li {display: inline-block;}
 .spisok{width: 1170px !important;
     height: 1360px !important;
     margin-left: 215px !important;
     margin-top:174px !important;}
-.project1{Width: 370px; Height: 404px;Top: 262px; }
+.project1 {Width: 370px; Height: 404px;Top: 262px; }
 .project2{Width: 370px; Height: 404px;Top: 262px; left: 400px;}
 .project3{Width: 370px; Height: 404px;Top: 262px; Left: 800px;}
 .project4{Width: 370px; Height: 404px;Top: 262px; Left: 215px;}
@@ -113,3 +113,4 @@ address{ font-style: normal;
 .item{ text-decoration: none; color: var(--main-white-color);}
 .item:hover {color:var(--highlight-color);}
 .item1{color:var(--main-white-color); opacity: 0.6;text-decoration: none;}
+.item1:hover {color:var(--highlight-color);}

@@ -56,7 +56,6 @@ body{
 
 
 /*Main*/
-/* css webstudia */
 .boxmain{
     width: 1600px; height: 600px;
     left: 0px; background: var(--fill-color);
@@ -64,20 +63,20 @@ body{
     display: table-cell;
     vertical-align: middle; 
     }
-.main{font-size: 44px;
+.main{font-size: 44px; font-weight: 900px; line-height:1.2;
     color: var(--main-white-color);
      top: 200px; text-transform: uppercase;
      }
 
-.button{
-    font-size: 16px ;width: 216px;
+.button1{
+    font-size: 16px ;width: 216px; font-weight: 700px;
     height: 50px;
-    color: var( --main-white-color);
+    color: var( --secondary-white-color);
     background-color:var(--highlight-color); border: none;
     cursor: pointer; border-radius: 4px; font-family:inherit;
 }
-.button:hover{ background-color:var(--button-hover-color) ;}
-.button:focus{background-color:var(--button-hover-color) ;}
+.button1:hover{ background-color:var(--button-hover-color) ;}
+.button1:focus{background-color:var(--button-hover-color) ;}
 .visually-hidden{position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -147,12 +146,12 @@ line-height:1.19;
     }
 
 .work li {display: inline-block;}
-.name2{line-height: 42.19px;font-weight: 700;
+.name2{line-height: 1.88;font-weight: 700;
     font-size: 36px;
     line-height: 0.86;
     text-align: center;}
 .name1{
-    line-height: 42.19px;font-weight: 700;
+    line-height: 1.88;font-weight: 700;
     font-size: 36px;
     line-height: 0.86;
     text-align: center;}
@@ -165,28 +164,37 @@ line-height:1.19;
     height: 368px;
     left: 215px;
     top: 1446px;}
+.profession{color: var(--secondary-text-color);}
 
 .stuff li {display: inline-block;}
+/*портфолiо*/
 
-/* css portfolio */
-
-
+.visually-hidden{position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
 .hero{width: 1600px;    height: 80px;}   
 .hero li {display: inline-block;}
 
-button{ background-color:var(--secondary-text-color); left: 512px;font-family: inherit;font-weight: 500;
+button{ background-color:var(--secondary-white-color); left: 512px;font-family: inherit;font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;cursor: pointer;}
+    line-height: 1.63;cursor: pointer;border: none;}
 
-button:hover{ background-color:var(--highlight-color);} 
-button:focus{background-color:var(--highlight-color);}
+button:hover{ background-color:var(--highlight-color);color: var(--main-white-color);} 
+button:focus{background-color:var(--highlight-color);color:var(--main-white-color);}
 
 .spisok li {display: inline-block;}
 .spisok{width: 1170px !important;
     height: 1360px !important;
-    margin-left: 215px !important;
-    margin-top:174px !important;}
-.project1{Width: 370px; Height: 404px;Top: 262px; }
+    /* margin-left: 215px !important; */
+    margin-top:24px !important;}
+.project1 {Width: 370px; Height: 404px;Top: 262px; }
 .project2{Width: 370px; Height: 404px;Top: 262px; left: 400px;}
 .project3{Width: 370px; Height: 404px;Top: 262px; Left: 800px;}
 .project4{Width: 370px; Height: 404px;Top: 262px; Left: 215px;}
@@ -220,13 +228,14 @@ button:focus{background-color:var(--highlight-color);}
     left: 0px;
     margin-top: 1194px;
     }
-address{ font-style: normal;
- font-size: 14px; 
-  margin-top: 60px;
- left: 215px; list-style: none;
-}
+   address{ font-style: normal;
+    font-size: 14px; 
+     margin-top: 60px;
+     left: 215px; list-style: none;
+    }
 .ind{list-style: none;}
 .logo4 {color:var(--main-white-color)}
 .item{ text-decoration: none; color: var(--main-white-color);}
 .item:hover {color:var(--highlight-color);}
 .item1{color:var(--main-white-color); opacity: 0.6;text-decoration: none;}
+.item1:hover {color:var(--highlight-color);}
